@@ -1,0 +1,11 @@
+@media (max-width: 991px) {
+	#infra div.row p,h3 {
+		text-align: center; 
+	}
+	#plan div.row:not(:first-child) {
+		margin: auto 15% auto 10%;
+	}
+#excurs h3 {
+
+}
+}
