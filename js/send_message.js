@@ -1,6 +1,7 @@
 			$(document).ready(function () {
 	 			$('#send').click(function(event) {
 					event.preventDefault();
+					var x = 'just string';
 					var name = $('input[name=name]').val();
 					var email = $('input[name=email]').val();
 					var phone = $('input[name=phone]').val();
