@@ -37,6 +37,13 @@
 			            });
 						result = 'Сообщение отправлено!';
 						$('#result_message').css({'color':'green'});
+						/*$.ajax({
+							type: "POST",
+							url: "js/simg.php",
+							success: function () {
+								alert('OK');
+							}
+						});*/
 					}
 					$('#result_message').html(result);
 				});
